@@ -1,0 +1,53 @@
+# Condicionales [Python]
+# Ejercicios de práctica
+
+# Autor: Inove Coding School
+# Version: 2.0
+
+# IMPORTANTE: NO borrar los comentarios
+# que aparecen en verde con el hashtag "#"
+
+# Ejemplos variables de texto
+
+# Comparadores
+# Ingrese dos palabras cualesquiera y realice las sigueintes
+# comparaciones entre ellas
+texto_1 = str(input('Ingrese la primera palabra:\n'))
+
+texto_2 = str(input('Ingrese la segunda palabra:\n'))
+
+# Compare cual de las dos palabras es mayor (alfabéticamente)
+# Imprima en pantalla según corresponda
+if (len(texto_1) > len (texto_2)):
+    print ('La primera palabra ', texto_1, 'es mayor que la segunda ',texto_2)
+else:
+    print('La segunda palabra ', texto_2,' es mayor que la primera ', texto_1)
+if (len(texto_2) == len (texto_1)):
+    print ('La primera palabra ', texto_1,'con ',len(texto_1) ,'caracteres es que la primera ',texto_2)
+
+# Compare cual de las dos palabras tiene mayor
+# cantidad de letras
+# Imprima en pantalla según corresponda
+if (len(texto_1) == len (texto_2)):
+    print ('La primera palabra y la segunda palabra tienen ',texto_1, 'caracteres ')
+elif (len(texto_1) > len (texto_2)):
+    print ('La primera palabra ', texto_1,'con ',len(texto_1) ,'caracteres es mayor que la segunda ',texto_2,'con ',len(texto_2),'caracteres')
+if (len(texto_2) > len (texto_1)):
+    print ('La segunda palabra ', texto_2,'con ',len(texto_2) ,'caracteres es mayor que la primera ',texto_2,'con ',len(texto_1),'caracteres')
+
+# Verifique si la primera letra de la primera palabra
+# es mayor a la primera letra de la segunda palabra
+# Imprima en pantalla según corresponda
+if ((texto_1[0]) > (texto_2[0])):
+    print ('La primera letra de la palabra ', texto_1, 'es mayor que la de la segunda palabra ',texto_2)
+else:
+    print('La primera letra de la palabra ', texto_2, 'es mayor que la de la segunda palabra ',texto_1)
+if ((texto_1[0]) == (texto_2)[0]):
+    print ('La primera palabra ', texto_2,'con ',len(texto_2) ,'caracteres es mayor  ',texto_1,'caracteres')
+ 
+  
+# Verifique que copia_texto_1 es igual a texto_1
+# Imprima en pantalla según corresponda
+
+# Verifique que copia_texto_1 es distinta a texto_2
+# Imprima en pantalla según corresponda
